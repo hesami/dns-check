@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm[toml]>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dns-check"  # اسم پکیج خود را اینجا وارد کنید
+dynamic = ["version"]
+
+[tool.setuptools_scm]
