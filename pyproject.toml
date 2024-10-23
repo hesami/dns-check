@@ -4,6 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dns-check"  # اسم پکیج خود را اینجا وارد کنید
-dynamic = ["version"]
+dynamic = ["version", "scripts", "dependencies"]
 
 [tool.setuptools_scm]
