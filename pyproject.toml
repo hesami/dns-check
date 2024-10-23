@@ -4,6 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dns-check"  # اسم پکیج خود را اینجا وارد کنید
-dynamic = ["version", "scripts", "dependencies"]
+dynamic = ["version", "scripts", "dependencies", "classifiers", "authors"]
+
+# اضافه کردن metadata به صورت مستقیم
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+authors = [
+    { name = "hesami" }
+]
 
 [tool.setuptools_scm]
